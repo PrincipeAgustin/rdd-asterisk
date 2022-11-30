@@ -1,0 +1,1 @@
+sudo docker run -d -it --name rdd-asterisk -v "$(pwd)"/conf:/etc/asterisk:slave --net=host --restart always rdd/asterisk
